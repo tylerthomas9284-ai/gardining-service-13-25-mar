@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Professional gardening services in New York. Transform your outdoor space with expert lawn care, garden design, and landscape maintenance from FreshBloom Garden Services.">
+  <meta name="keywords" content="gardening services, lawn care, garden design, landscape maintenance, New York">
+  <title>FreshBloom Garden Services | Professional Gardening in New York</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <div class="header-content">
+        <a href="index.html" class="logo-container">
+          <svg class="logo-tree" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M45 100 L45 60 Q45 55 48 52 L52 48 Q55 45 55 40 L55 100 Z" fill="#5d4037"/>
+            <path d="M48 52 L52 48 L58 54 L62 50 L65 53" stroke="#4a332b" stroke-width="2" fill="none"/>
+            <ellipse cx="30" cy="35" rx="12" ry="10" fill="#2d5016"/><ellipse cx="28" cy="32" rx="13" ry="11" fill="#3d6b1f"/><ellipse cx="32" cy="30" rx="11" ry="9" fill="#4a7c26"/><ellipse cx="35" cy="28" rx="10" ry="8" fill="#5a9432"/><ellipse cx="25" cy="38" rx="9" ry="8" fill="#6ba83e"/>
+            <ellipse cx="65" cy="40" rx="13" ry="11" fill="#2d5016"/><ellipse cx="68" cy="37" rx="12" ry="10" fill="#3d6b1f"/><ellipse cx="70" cy="35" rx="11" ry="9" fill="#4a7c26"/><ellipse cx="66" cy="42" rx="10" ry="8" fill="#5a9432"/>
+            <ellipse cx="50" cy="20" rx="14" ry="12" fill="#2d5016"/><ellipse cx="48" cy="18" rx="13" ry="11" fill="#3d6b1f"/><ellipse cx="52" cy="16" rx="12" ry="10" fill="#4a7c26"/><ellipse cx="50" cy="14" rx="11" ry="9" fill="#5a9432"/><ellipse cx="47" cy="22" rx="10" ry="8" fill="#6ba83e"/><ellipse cx="54" cy="20" rx="9" ry="7" fill="#7bc645"/>
+            <ellipse cx="48" cy="35" rx="11" ry="10" fill="#3d6b1f"/><ellipse cx="50" cy="33" rx="10" ry="9" fill="#4a7c26"/><ellipse cx="52" cy="36" rx="9" ry="8" fill="#5a9432"/><ellipse cx="49" cy="38" rx="8" ry="7" fill="#6ba83e"/>
+            <ellipse cx="32" cy="28" rx="4" ry="3" fill="#7bc645" opacity="0.8"/><ellipse cx="68" cy="36" rx="4" ry="3" fill="#7bc645" opacity="0.8"/><ellipse cx="50" cy="15" rx="5" ry="4" fill="#8fd653" opacity="0.7"/>
+          </svg>
+          <div class="logo-text-content">
+            <div class="logo-main-text">GARDEN</div>
+            <div class="logo-tagline">NATURE TREE</div>
+          </div>
+        </a>
+
+        <!-- Desktop Navigation -->
+        <nav>
+          <a href="index.html">Home</a>
+          <a href="about.html">About Us</a>
+          <a href="services.html">Services</a>
+          <a href="blog.html">Blog</a>
+          <a href="faq.html">FAQ</a>
+          <a href="contact.html">Contact Us</a>
+        </nav>
+
+        <!-- Call Button -->
+        <a href="tel:5038535991" class="call-button">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+          (503) 853-5991
+        </a>
+
+        <!-- Mobile Menu Button -->
+        <button id="mobile-menu-button" class="mobile-menu-button" aria-label="Toggle menu">
+          <svg id="menu-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+          <svg id="close-icon" class="hide" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+        </button>
+      </div>
+
+      <!-- Mobile Menu -->
+      <div id="mobile-menu" class="mobile-menu">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="services.html">Services</a>
+        <a href="blog.html">Blog</a>
+        <a href="faq.html">FAQ</a>
+        <a href="contact.html">Contact Us</a>
+        <a href="tel:5038535991" class="call-button">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+          (503) 853-5991
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Hero Section -->
+    <section class="hero-section" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1758414335865-17baa986b85b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxiZWF1dGlmdWwlMjBnYXJkZW4lMjBsYW5kc2NhcGluZ3xlbnwxfHx8fDE3NzI1OTMyNTl8MA&ixlib=rb-4.1.0&q=80&w=1080');">
+      <div class="hero-overlay"></div>
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-text">
+            <h1>Professional Gardening Services in New York</h1>
+            <p>Transform your outdoor space with expert care from FreshBloom Garden Services.</p>
+            <div class="hero-buttons">
+              <a href="#quote" class="btn btn-primary">Request a Free Quote</a>
+              <a href="tel:5038535991" class="btn btn-secondary">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle; margin-right: 8px;"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                Call (503) 853-5991
+              </a>
+            </div>
+          </div>
+
+          <!-- Hero Form -->
+          <div class="hero-form" id="quote">
+            <h3>Get Your Free Estimate</h3>
+            <form data-form="quote">
+              <div class="form-group">
+                <input type="text" name="name" placeholder="Your Name *" required>
+              </div>
+              <div class="form-group">
+                <input type="email" name="email" placeholder="Email Address *" required>
+              </div>
+              <div class="form-group">
+                <input type="tel" name="phone" placeholder="Phone Number *" required>
+              </div>
+              <div class="form-group">
+                <select name="service" required>
+                  <option value="">Select Service Needed *</option>
+                  <option value="lawn-care">Lawn Care & Maintenance</option>
+                  <option value="garden-design">Garden Design & Installation</option>
+                  <option value="seasonal-planting">Seasonal Planting</option>
+                  <option value="tree-care">Tree & Shrub Care</option>
+                  <option value="landscape">Landscape Maintenance</option>
+                  <option value="irrigation">Irrigation System</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <textarea name="message" rows="3" placeholder="Additional Message"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary btn-full">Request Free Quote</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Overview Section -->
+    <section class="bg-gray">
+      <div class="container">
+        <div class="section-header">
+          <h2>Our Gardening Services</h2>
+          <p>From lawn care to complete landscape transformations, we offer comprehensive gardening services tailored to your needs.</p>
+        </div>
+
+        <div class="grid grid-md-2 grid-lg-3">
+          <!-- Service 1 -->
+          <div class="card">
+            <div class="card-image-container">
+              <img src="https://images.unsplash.com/photo-1766246721288-abda35d6d20d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxsYXduJTIwbW93aW5nJTIwbWFpbnRlbmFuY2V8ZW58MXx8fHwxNzcyNjQwMjExfDA&ixlib=rb-4.1.0&q=80&w=1080" alt="Lawn Care & Maintenance" class="card-image">
+            </div>
+            <div class="card-content">
+              <h3 class="card-title">Lawn Care & Maintenance</h3>
+              <p class="card-text">Keep your lawn healthy and beautiful with our professional mowing, edging, and fertilization services.</p>
+              <a href="services.html" style="color: var(--green-600); text-decoration: none; font-weight: 600;">
+                Learn More →
+              </a>
+            </div>
+          </div>
+
+          <!-- Service 2 -->
+          <div class="card">
+            <div class="card-image-container">
+              <img src="https://images.unsplash.com/photo-1665523456595-213ff4974737?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxnYXJkZW4lMjBkZXNpZ24lMjBmbG93ZXJzfGVufDF8fHx8MTc3MjY0MDIxMXww&ixlib=rb-4.1.0&q=80&w=1080" alt="Garden Design & Installation" class="card-image">
+            </div>
+            <div class="card-content">
+              <h3 class="card-title">Garden Design & Installation</h3>
+              <p class="card-text">Transform your outdoor space with custom garden designs tailored to your preferences and landscape.</p>
+              <a href="services.html" style="color: var(--green-600); text-decoration: none; font-weight: 600;">
+                Learn More →
+              </a>
+            </div>
+          </div>
+
+          <!-- Service 3 -->
+          <div class="card">
+            <div class="card-image-container">
+              <img src="https://images.unsplash.com/photo-1646648442399-8fbddc211a42?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzZWFzb25hbCUyMHBsYW50aW5nJTIwc3ByaW5nfGVufDF8fHx8MTc3MjY5OTYyNnww&ixlib=rb-4.1.0&q=80&w=1080" alt="Seasonal Planting" class="card-image">
+            </div>
+            <div class="card-content">
+              <h3 class="card-title">Seasonal Planting</h3>
+              <p class="card-text">Enhance your garden with seasonal flowers and plants that bloom beautifully year-round.</p>
+              <a href="services.html" style="color: var(--green-600); text-decoration: none; font-weight: 600;">
+                Learn More →
+              </a>
+            </div>
+          </div>
+
+          <!-- Service 4 -->
+          <div class="card">
+            <div class="card-image-container">
+              <img src="https://images.unsplash.com/photo-1754321889123-0485c7fea5f1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0cmVlJTIwcHJ1bmluZyUyMGNhcmV8ZW58MXx8fHwxNzcyNjk1NTcxfDA&ixlib=rb-4.1.0&q=80&w=1080" alt="Tree & Shrub Care" class="card-image">
+            </div>
+            <div class="card-content">
+              <h3 class="card-title">Tree & Shrub Care</h3>
+              <p class="card-text">Expert pruning, trimming, and care to keep your trees and shrubs healthy and attractive.</p>
+              <a href="services.html" style="color: var(--green-600); text-decoration: none; font-weight: 600;">
+                Learn More →
+              </a>
+            </div>
+          </div>
+
+          <!-- Service 5 -->
+          <div class="card">
+            <div class="card-image-container">
+              <img src="https://images.unsplash.com/photo-1630827200575-9e1ed0ad6e4d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxsYW5kc2NhcGUlMjBtYWludGVuYW5jZSUyMHByb2Zlc3Npb25hbHxlbnwxfHx8fDE3NzI2OTk2Mjd8MA&ixlib=rb-4.1.0&q=80&w=1080" alt="Landscape Maintenance" class="card-image">
+            </div>
+            <div class="card-content">
+              <h3 class="card-title">Landscape Maintenance</h3>
+              <p class="card-text">Comprehensive landscape maintenance to ensure your property looks its best all year long.</p>
+              <a href="services.html" style="color: var(--green-600); text-decoration: none; font-weight: 600;">
+                Learn More →
+              </a>
+            </div>
+          </div>
+
+          <!-- Service 6 -->
+          <div class="card">
+            <div class="card-image-container">
+              <img src="https://images.unsplash.com/photo-1743742566156-f1745850281a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxpcnJpZ2F0aW9uJTIwc3ByaW5rbGVyJTIwc3lzdGVtfGVufDF8fHx8MTc3MjY5OTYyN3ww&ixlib=rb-4.1.0&q=80&w=1080" alt="Irrigation System Setup" class="card-image">
+            </div>
+            <div class="card-content">
+              <h3 class="card-title">Irrigation System Setup</h3>
+              <p class="card-text">Efficient irrigation solutions to keep your landscape watered and thriving with minimal effort.</p>
+              <a href="services.html" style="color: var(--green-600); text-decoration: none; font-weight: 600;">
+                Learn More →
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Choose FreshBloom Section -->
+    <section class="bg-white">
+      <div class="container">
+        <div class="section-header">
+          <h2>Why Choose FreshBloom</h2>
+          <p>We are committed to delivering exceptional gardening services with professionalism and care.</p>
+        </div>
+
+        <div class="grid grid-md-2 grid-lg-3">
+          <div class="feature-card">
+            <div class="feature-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+            </div>
+            <h3 class="card-title">Experienced Garden Specialists</h3>
+            <p class="card-text">Our team has over 15 years of experience in professional gardening and landscaping.</p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="1" x2="12" y2="23"></line><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
+            </div>
+            <h3 class="card-title">Affordable Pricing</h3>
+            <p class="card-text">Competitive rates without compromising on quality. Get the best value for your investment.</p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 C8.5 2 5.5 4.5 5 8.5 C4.5 12.5 4.5 17 7 19.5 C9.5 22 12 23 12 23 C12 23 14.5 22 17 19.5 C19.5 17 19.5 12.5 19 8.5 C18.5 4.5 15.5 2 12 2 Z"></path></svg>
+            </div>
+            <h3 class="card-title">Eco-Friendly Practices</h3>
+            <p class="card-text">We use sustainable, environmentally responsible methods and organic products.</p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+            </div>
+            <h3 class="card-title">Reliable & On-Time Service</h3>
+            <p class="card-text">We respect your time and always arrive when scheduled, completing work promptly.</p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="7"></circle><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline></svg>
+            </div>
+            <h3 class="card-title">Customer Satisfaction Guaranteed</h3>
+            <p class="card-text">100% satisfaction guarantee. We are not done until you are completely happy.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recent Projects Section -->
+    <section class="bg-gray">
+      <div class="container">
+        <div class="section-header">
+          <h2>Recent Garden Projects</h2>
+          <p>Take a look at some of our recent transformations across New York.</p>
+        </div>
+
+        <div class="grid grid-md-2 grid-lg-4">
+          <div class="project-card">
+            <img src="https://images.unsplash.com/photo-1738669313657-07ebf0f23d15?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxnYXJkZW4lMjBwcm9qZWN0JTIwYmVmb3JlJTIwYWZ0ZXJ8ZW58MXx8fHwxNzcyNjk5NjI3fDA&ixlib=rb-4.1.0&q=80&w=1080" alt="Brooklyn Backyard Transformation" class="project-image">
+            <div class="project-overlay">
+              <h3 class="project-title">Brooklyn Backyard Transformation</h3>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <img src="https://images.unsplash.com/photo-1761637823276-7d714eb45cb1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxiYWNreWFyZCUyMHRyYW5zZm9ybWF0aW9uJTIwbGFuZHNjYXBpbmd8ZW58MXx8fHwxNzcyNjk5NjI4fDA&ixlib=rb-4.1.0&q=80&w=1080" alt="Manhattan Rooftop Garden" class="project-image">
+            <div class="project-overlay">
+              <h3 class="project-title">Manhattan Rooftop Garden</h3>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <img src="https://images.unsplash.com/photo-1766228271509-5ea983e96269?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmbG93ZXIlMjBiZWQlMjBpbnN0YWxsYXRpb258ZW58MXx8fHwxNzcyNjk5NjI4fDA&ixlib=rb-4.1.0&q=80&w=1080" alt="Queens Residential Landscape" class="project-image">
+            <div class="project-overlay">
+              <h3 class="project-title">Queens Residential Landscape</h3>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <img src="https://images.unsplash.com/photo-1707257050715-f99ab3d8abdd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxncmVlbiUyMGxhd24lMjBncmFzcyUyMGNhcmV8ZW58MXx8fHwxNzcyNjk5NjI5fDA&ixlib=rb-4.1.0&q=80&w=1080" alt="Staten Island Garden Makeover" class="project-image">
+            <div class="project-overlay">
+              <h3 class="project-title">Staten Island Garden Makeover</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="bg-white">
+      <div class="container">
+        <div class="section-header">
+          <h2>What Our Customers Say</h2>
+          <p>Don't just take our word for it - hear from our satisfied customers.</p>
+        </div>
+
+        <div class="grid grid-md-2">
+          <div class="testimonial">
+            <div class="testimonial-rating">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+            </div>
+            <p class="testimonial-text">"FreshBloom completely transformed our backyard! The team was professional, punctual, and the results exceeded our expectations. Highly recommend!"</p>
+            <div>
+              <p class="testimonial-author">Sarah Johnson</p>
+              <p class="testimonial-location">Brooklyn, NY</p>
+            </div>
+          </div>
+
+          <div class="testimonial">
+            <div class="testimonial-rating">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+            </div>
+            <p class="testimonial-text">"Best gardening service in NYC! They maintain our rooftop garden and it has never looked better. Very knowledgeable and eco-friendly approach."</p>
+            <div>
+              <p class="testimonial-author">Michael Chen</p>
+              <p class="testimonial-location">Manhattan, NY</p>
+            </div>
+          </div>
+
+          <div class="testimonial">
+            <div class="testimonial-rating">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+            </div>
+            <p class="testimonial-text">"Professional, affordable, and reliable. FreshBloom has been taking care of our lawn for 2 years now. Wouldn't trust anyone else!"</p>
+            <div>
+              <p class="testimonial-author">Emily Rodriguez</p>
+              <p class="testimonial-location">Queens, NY</p>
+            </div>
+          </div>
+
+          <div class="testimonial">
+            <div class="testimonial-rating">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+            </div>
+            <p class="testimonial-text">"Outstanding service! They designed and installed a beautiful garden for us. The attention to detail and customer service is exceptional."</p>
+            <div>
+              <p class="testimonial-author">David Thompson</p>
+              <p class="testimonial-location">Bronx, NY</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call-to-Action Section -->
+    <section class="bg-green">
+      <div class="container text-center">
+        <h2 style="font-size: 2.5rem; margin-bottom: 1rem;">Ready to Transform Your Garden?</h2>
+        <p style="font-size: 1.25rem; margin-bottom: 2rem; color: var(--green-100);">
+          Get your free estimate today and let us bring your outdoor vision to life.
+        </p>
+        <div style="display: flex; flex-direction: column; gap: 1rem; align-items: center;">
+          <a href="#quote" class="btn" style="background: white; color: var(--green-600);">
+            Get Your Free Estimate
+          </a>
+          <a href="tel:5038535991" class="btn" style="background: var(--green-700); color: white;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle; margin-right: 8px;"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+            Call Now
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Company Info -->
+        <div>
+          <div class="footer-logo">
+            <a href="index.html" class="logo-container">
+              <svg class="logo-tree" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M45 100 L45 60 Q45 55 48 52 L52 48 Q55 45 55 40 L55 100 Z" fill="#5d4037"/>
+                <path d="M48 52 L52 48 L58 54 L62 50 L65 53" stroke="#4a332b" stroke-width="2" fill="none"/>
+                <ellipse cx="30" cy="35" rx="12" ry="10" fill="#2d5016"/><ellipse cx="28" cy="32" rx="13" ry="11" fill="#3d6b1f"/><ellipse cx="32" cy="30" rx="11" ry="9" fill="#4a7c26"/><ellipse cx="35" cy="28" rx="10" ry="8" fill="#5a9432"/><ellipse cx="25" cy="38" rx="9" ry="8" fill="#6ba83e"/>
+                <ellipse cx="65" cy="40" rx="13" ry="11" fill="#2d5016"/><ellipse cx="68" cy="37" rx="12" ry="10" fill="#3d6b1f"/><ellipse cx="70" cy="35" rx="11" ry="9" fill="#4a7c26"/><ellipse cx="66" cy="42" rx="10" ry="8" fill="#5a9432"/>
+                <ellipse cx="50" cy="20" rx="14" ry="12" fill="#2d5016"/><ellipse cx="48" cy="18" rx="13" ry="11" fill="#3d6b1f"/><ellipse cx="52" cy="16" rx="12" ry="10" fill="#4a7c26"/><ellipse cx="50" cy="14" rx="11" ry="9" fill="#5a9432"/><ellipse cx="47" cy="22" rx="10" ry="8" fill="#6ba83e"/><ellipse cx="54" cy="20" rx="9" ry="7" fill="#7bc645"/>
+                <ellipse cx="48" cy="35" rx="11" ry="10" fill="#3d6b1f"/><ellipse cx="50" cy="33" rx="10" ry="9" fill="#4a7c26"/><ellipse cx="52" cy="36" rx="9" ry="8" fill="#5a9432"/><ellipse cx="49" cy="38" rx="8" ry="7" fill="#6ba83e"/>
+                <ellipse cx="32" cy="28" rx="4" ry="3" fill="#7bc645" opacity="0.8"/><ellipse cx="68" cy="36" rx="4" ry="3" fill="#7bc645" opacity="0.8"/><ellipse cx="50" cy="15" rx="5" ry="4" fill="#8fd653" opacity="0.7"/>
+              </svg>
+              <div class="logo-text-content">
+                <div class="logo-main-text">GARDEN</div>
+                <div class="logo-tagline">NATURE TREE</div>
+              </div>
+            </a>
+          </div>
+          <p class="footer-description">
+            Professional gardening services in New York and surrounding areas. Transform your outdoor space with expert care.
+          </p>
+          <div class="social-links">
+            <a href="#" aria-label="Facebook">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+            </a>
+            <a href="#" aria-label="Twitter">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg>
+            </a>
+            <a href="#" aria-label="Instagram">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="footer-section">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <!-- Services -->
+        <div class="footer-section">
+          <h4>Our Services</h4>
+          <ul style="font-size: 0.875rem;">
+            <li>Lawn Care & Maintenance</li>
+            <li>Garden Design & Installation</li>
+            <li>Seasonal Planting</li>
+            <li>Tree & Shrub Care</li>
+            <li>Landscape Maintenance</li>
+            <li>Irrigation System Setup</li>
+          </ul>
+        </div>
+
+        <!-- Contact Info -->
+        <div class="footer-section">
+          <h4>Contact Us</h4>
+          <ul style="list-style: none; margin: 0; padding: 0;">
+            <li style="display: flex; align-items: flex-start; gap: 0.5rem; margin-bottom: 0.75rem;">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: var(--green-300); flex-shrink: 0; margin-top: 2px;"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+              <a href="tel:5038535991">(503) 853-5991</a>
+            </li>
+            <li style="display: flex; align-items: flex-start; gap: 0.5rem; margin-bottom: 0.75rem;">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: var(--green-300); flex-shrink: 0; margin-top: 2px;"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+              <a href="mailto:info@freshbloom.com">info@freshbloom.com</a>
+            </li>
+            <li style="display: flex; align-items: flex-start; gap: 0.5rem;">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: var(--green-300); flex-shrink: 0; margin-top: 2px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+              <address style="font-style: normal; font-size: 0.875rem;">
+                75 3rd Ave<br>
+                New York, NY 10003<br>
+                United States
+              </address>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Footer Bottom -->
+      <div class="footer-bottom">
+        <p>© <span id="current-year">2024</span> FreshBloom Garden Services. All rights reserved.</p>
+        <div class="footer-legal">
+          <a href="terms.html">Terms and Conditions</a>
+          <a href="privacy.html">Privacy Policy</a>
+          <a href="disclaimer.html">Disclaimer</a>
+          <a href="cookies.html">Cookie Policy</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Call Button -->
+  <a href="tel:5038535991" class="floating-call-button" aria-label="Call us now">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+  </a>
+
+  <!-- Cookie Consent -->
+  <div id="cookie-consent" class="cookie-consent">
+    <div class="cookie-content">
+      <div class="cookie-text">
+        <p>We use cookies to enhance your browsing experience and analyze our traffic. By clicking "Accept", you consent to our use of cookies. <a href="cookies.html">Learn more</a></p>
+      </div>
+      <div class="cookie-buttons">
+        <button id="decline-cookies" class="btn-decline">Decline</button>
+        <button id="accept-cookies" class="btn-accept">Accept</button>
+      </div>
+      <button id="close-cookies" style="position: absolute; top: 8px; right: 8px; background: none; border: none; cursor: pointer; color: var(--gray-600);" aria-label="Close">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+      </button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,68 @@
+FRESHBLOOM GARDEN SERVICES - HTML CONVERSION GUIDE
+==================================================
+
+✅ COMPLETED FILES (4/18):
+1. index.html - Home page (DONE)
+2. about.html - About Us page (DONE)
+3. terms.html - Terms and Conditions (DONE)
+4. styles.css - Complete stylesheet (DONE)
+5. script.js - All JavaScript (DONE)
+
+📋 REMAINING FILES TO CREATE (14):
+
+MAIN PAGES (5):
+---------------
+1. services.html
+2. contact.html
+3. faq.html  
+4. blog.html
+
+BLOG ARTICLE PAGES (6):
+-----------------------
+5. blog-spring-lawn-care.html
+6. blog-seasonal-planting.html
+7. blog-garden-design.html
+8. blog-tree-pruning.html
+9. blog-eco-friendly.html
+10. blog-irrigation.html
+
+LEGAL PAGES (3):
+----------------
+11. privacy.html - Privacy Policy
+12. disclaimer.html - Disclaimer
+13. cookies.html - Cookie Policy
+
+ALL FILES ARE IN: /public/ folder
+
+TO CREATE EACH PAGE:
+===================
+1. Copy the header from index.html or about.html (lines 8-78)
+2. Add your unique page content in the <main> section
+3. Copy the footer from index.html or about.html
+4. Copy the floating call button
+5. Copy the cookie consent banner  
+6. Include <script src="script.js"></script> at the end
+
+HEADER TEMPLATE (Copy this for every page):
+-------------------------------------------
+The header includes:
+- Logo with 4 colorful flowers
+- Navigation links (Home, About, Services, Blog, FAQ, Contact)
+- Call button: (503) 853-5991
+- Mobile menu button
+
+FOOTER TEMPLATE (Copy this for every page):
+-------------------------------------------
+The footer includes:
+- Company info with logo
+- Quick Links
+- Our Services list
+- Contact information
+- Social media links
+- Legal links (Terms, Privacy, Disclaimer, Cookies)
+- Copyright with current year
+
+All pages use the same CSS file: styles.css
+All pages use the same JS file: script.js
+
+Next: I will create the remaining pages for you!
